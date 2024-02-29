@@ -1,6 +1,6 @@
 // code here
 
-CSG textToSize(String text, double x, double y double z) {
+CSG textToSize(String text, double x, double y, double z) {
 		CSG startText = CSG.text( text, z) ;
 		double scalex = x/startText.getTotalX();
 		double scaley = y/startText.getTotalY();
